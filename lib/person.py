@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 
 class Person:
-   def talk(self):
-      
-      print("Hello World!")
+    def talk(self):
+        print("Hello World!")
 
-      def walk(self):
-         print("The person is walking.")
+    def walk(self):
+        print("The person is walking.")
+
+person = Person()
+person.talk()  # Should print "Hello World!"
+person.walk()  # Should print "The person is walking."

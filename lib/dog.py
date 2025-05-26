@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
-
 class Dog:
+    def bark(self):
+        print("Woof!")
+    
     def sit(self):
-        """Simulate a dog sitting in response to a command."""
-        print("The dog is now sitting.")
+        print("The dog is sitting.")
+
+        
+           
